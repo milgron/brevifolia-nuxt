@@ -29,6 +29,12 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: meta-tag
+  type: text
+  config:
+    required: false
+  label: meta-tag
+  description: an awesome site
 pages:
 - content/blog-posts/an-essay-on-walking.md
 - content/blog-posts/ne-te-quaesiveris-extra.md
